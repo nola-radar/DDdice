@@ -4,17 +4,17 @@
 # -Radar
 
 # Dice arrays
-4d = (1..4).to_a
-6d = (1..6).to_a
-8d = (1..8).to_a
-10d = (1..10).to_a
-12d = (1..12).to_a
-20d = (1..20).to_a
+fourD = (1..4).to_a
+sixD = (1..6).to_a
+eightD = (1..8).to_a
+tenD = (1..10).to_a
+twelveD = (1..12).to_a
+twentyD = (1..20).to_a
 
 # Roll all the dice
-print "Four sided die:", (4d.sample), "\n"
-print "Six sided die:", (6d.sample), "\n"
-print "Eight sided die:", (8d.sample), "\n"
-print "Ten sided die:", (10d.sample), "\n"
-print "Twelve sided die:", (12d.sample), "\n"
-print "Twenty sided die:", (20d.sample), "\n"
+print "Four sided die:", (fourD.sample), "\n"
+print "Six sided die:", (sixD.sample), "\n"
+print "Eight sided die:", (eightD.sample), "\n"
+print "Ten sided die:", (tenD.sample), "\n"
+print "Twelve sided die:", (twelveD.sample), "\n"
+print "Twenty sided die:", (twentyD.sample), "\n"
