@@ -1,3 +1,5 @@
+require './die'
+
 class Roll
   def initialize(dice, sides, bonus)
     @bonus = bonus
